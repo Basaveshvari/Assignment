@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGSRTC BUS PASS</title>
+    <style>
+        legend{
+            border: 1px solid;
+            height: 25px;
+            width: auto;
+            border-radius: 5px;
+            background-color: rgb(21, 121, 184);
+            color: white;
+            padding: 5px;
+            font-size: large;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        fieldset{
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div style="border:2px solid; border-radius: 40px; width:840px; height: 170px; padding:10px; padding-left:40px; padding-right:40px;">
+        <img src="https://maheshgollapalli.github.io/43R/tsrtc.png" alt="" width="50px" style="margin-top: 8px; margin-bottom: -6px;">
+        <h2 style="color:blue">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+        <h3>GENERAL BUS PASS APPLICATION</h3>
+        </div><br>
+
+    <form action="" >
+
+        <fieldset style="width:800px; height:300px;">
+            <legend>Applicant Details</legend>
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="name">Name*</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Full name" required></td>
+
+                    <td><label for="father name">Father's/Gurdain Name*</label></td>
+                    <td><input type="text" name="father name" id="father name" required></td><br>
+                </tr>
+                <tr>
+                    <td><label for="date">Date of Birth*</label></td>
+                    <td><input type="date" name="Date of Birth" id="date" required></td>
+
+                    <td><label>Select Gender*</label></td>
+                    <td>
+                        <input type="radio" name="radio" id="male" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" name="radio" id="Female" value="Female" require>
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Age as on*</label></td>
+                    <td>
+                        <label for="age">Year(s)</label>
+                        <input type="number" name="" id="age"  required><br>
+                        <label for="age">Month(s)</label>
+                        <input type="number" name="" id="age" required><br>
+                        <label for="age">Day(s)</label>
+                        <input type="number" name="" id="age" required>
+                    </td>
+                    <td><label for="">Adhaar No:</label></td>
+                        <td><input type="number" name="" id="" placeholder="xxxx-xxxx-xxxx" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">WhatsApp No*</label></td>
+                    <td><input type="tel" name="" id="" minlength="10" maxlength="10" placeholder="+91" required></td>
+                    <td><label for="">Email Id*</label></td>
+                    <td><input type="text" name="" id="" placeholder="email@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Photo*</label></td>
+                    <td><input style="border-width:1px;;border-style:solid;padding:6px;" type="file" name="" id="" required acceptance=".doc" required></td>
+                </tr>
+            </table>
+        </fieldset>
+    <br>
+        <fieldset style="width:800px; height:200px;" >
+            <legend>Residential Address Details</legend>
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="textarea">Applicant's Address*</label></td>
+                    <td>
+                        <textarea name="" id="textarea" cols="30" rows="5" required></textarea>
+                    </td>
+                    <td><label for="district">District*</label></td>
+                    <td><select name="" id="district" required>
+                        <option value="Medak">Medak</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mandal">Mandal*</label></td>
+                    <td>
+                        <select name="" id="mandal" required>
+                        <option value="regode">Regode</option>    
+                        </select>
+                    </td>
+                    <td><label for="">Village*</label></td>
+                    <td>
+                        <select name="" id="" required>
+                        <option value="Thimmapur">Thimmapur</option>  
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Pincode*</label></td>
+                    <td><input type="number" name="" id="" required></td>
+                </tr>
+             </table>
+        </fieldset>
+        <br>
+        <fieldset style="width:800px; height:100px;" >
+            <legend>Pass type Details</legend>
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="">City*</label></td>
+                    <td>
+                        <select name="" id="city" required>
+                        <option value="Medak">Hyderabad</option>    
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="passtype">Pass Type*</label></td>
+                    <td>
+                        <select name="" id="passtype" required>
+                        <option value="1" selected>GREATER PASS</option> 
+                        <option value="2" selected>GENERAL ORDINARY ROUTE PASS MLTY</option>
+                        <option value="3" selected>GENERAL METRO EXPRESS ROUTE PASS MLTY</option>
+                        <option value="4" selected>METRO EXPRESS PASS</option>
+                        <option value="5" selected>METRO DELUXE PASS</option>
+                        <option value="6" selected>ORDINARY PASS</option>   
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>  
+        <br>
+        <fieldset style="width:800px; height:140px;" >
+            <legend>Mode Of Payment And Pass Colllection</legend>
+            <table cellspacing="15px">
+                <tr>
+                    <td><label for="payment">Mode of Payment*</label></td>
+                    <td>
+                        <select name="Mode of Payment" id="payment">
+                        <option selected disabled>Select Payment Mode</option>
+                        <option value="Payment at Counter">Payment at Counter</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="passdeliverymode">Pass Delivery Mode*</label></td>
+                    <td>
+                        <select name="" id="passdeliverymode" required>
+                        <option value="1" selected>select pass delivery mode</option> 
+                        <option value="2" selected>at counter</option>
+                        <option value="3" selected>GENERAL ORDINARY ROUTE PASS MLTY</option>
+                        <option value="4" selected>METRO EXPRESS PASS</option>
+                        <option  value="5" >GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+                        <option value="5" selected>METRO DELUXE PASS</option>
+                        <option value="6" selected>ORDINARY PASS</option>   
+                        </select>
+                    </td>    
+                </tr>
+                 <tr>
+                <td><label for="delivery">Center at which you want to collect Pass*</label></td>
+                <td>
+                    <select name="Collecting Pass Mode" id="payment">
+                    <option selected disabled>--Select--</option>
+                    <option value="">RTC ABIDS --HYD</option>
+                    <option value="">RTC AIRPORT --HYD</option>
+                    <option value="">RTC ARAMGHAR--HYD</option>
+                    <option value="">RTC ECIL--HYD</option>
+                    <option value="">RTC KOTI--HYD</option>
+                    <option value="">RTC KPHB--HYD</option>
+                    <option value="">RTC KUKATPALLY--HYD</option>
+                    <option value="">RTC IBRAHIMPATNAM--HYD</option>
+                    <option value="">RTC LAKDIKAPOOL--HYD</option>
+                    <option value="">RTC LINGAMPALLY--HYD</option>
+                    <option value="">RTC MIYAPUR --HYD</option>
+                </select>
+                </td>
+            </tr>
+         </table>
+        </fieldset>
+        </form>
+        <br>
+        <img src="data:image/png;base64,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" alt="captch" width="300px" height="50px">
+        <br> 
+        <input type="text"><br><br>
+        <button>SUBMIT</button>
+        
+    </center>
+    
+</body>
+</html>
