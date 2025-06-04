@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number & Email</title>
+</head>
+<body>
+      <form action="./pattern1.html" autocomplete="off">
+        <label id="User">User Name:</label>
+        <input type="text" id="User" name="username" pattern="[A-Z-a-z]" title="enter 'a-z' only" required>
+        <br><br>
+
+        <label id="">Enter Phone Number:</label>
+        <input type="tel"  pattern="\+91 [6-9][0-9]{9}" title="enter '10' digits only" placeholder="+91 9XXXXXXXXX" required>
+        <br><br>
+
+        <label id="email">Enter Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9]+@gmail.com" title="enter a Valid email only" placeholder="username@gmail.com">
+        <br><br>
+        <input type="submit" value="Submit">
+
+
+
+
+      </form>
+</body>
+</html>
